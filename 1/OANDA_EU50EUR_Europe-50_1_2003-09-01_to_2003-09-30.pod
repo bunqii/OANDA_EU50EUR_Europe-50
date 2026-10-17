@@ -1,0 +1,83 @@
+{
+  "pod_version": "4.0",
+  "instrument": "EU50_EUR",
+  "granularity": "M1",
+  "chunk_start": "2003-09-01",
+  "chunk_end": "2003-09-30",
+  "parquet_file": "OANDA_EU50EUR_Europe-50_1_2003-09-01_to_2003-09-30.parquet",
+  "data_file": "OANDA_EU50EUR_Europe-50_1_2003-09-01_to_2003-09-30.parquet",
+  "row_count": 1083,
+  "first_candle": {
+    "time": 1063965720,
+    "Time": "2003-09-19T10:02:00.000000000Z",
+    "open": 2569.0,
+    "high": 2569.0,
+    "low": 2569.0,
+    "close": 2569.0,
+    "volume": 1
+  },
+  "last_candle": {
+    "time": 1064944740,
+    "Time": "2003-09-30T17:59:00.000000000Z",
+    "open": 2407.7,
+    "high": 2407.7,
+    "low": 2407.7,
+    "close": 2407.7,
+    "volume": 1
+  },
+  "csv_file": "OANDA_EU50EUR_Europe-50_1_2003-09-01_to_2003-09-30.parquet",
+  "csv_row_count": 1083,
+  "csv_first_candle": {
+    "time": 1063965720,
+    "Time": "2003-09-19T10:02:00.000000000Z",
+    "open": 2569.0,
+    "high": 2569.0,
+    "low": 2569.0,
+    "close": 2569.0,
+    "volume": 1
+  },
+  "csv_last_candle": {
+    "time": 1064944740,
+    "Time": "2003-09-30T17:59:00.000000000Z",
+    "open": 2407.7,
+    "high": 2407.7,
+    "low": 2407.7,
+    "close": 2407.7,
+    "volume": 1
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-16T02:12:35.000000000Z",
+  "generated_at": "2026-10-16T02:12:35.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2428,
+    "chunk_api_blocks": 4,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2003-09-19T10:02:00Z",
+        "to": "2003-09-22T21:22:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2003-09-22T21:22:00Z",
+        "to": "2003-09-26T08:42:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2003-09-26T08:42:00Z",
+        "to": "2003-09-29T20:02:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2003-09-29T20:02:00Z",
+        "to": "2003-10-03T07:22:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
